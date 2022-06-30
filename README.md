@@ -4,6 +4,6 @@
 </h3>
 <img src="https://github.com/trabajopro10/netequipos/tree/master/static/image/aplicacion.png">
 <p align="center" >
-     <img width="600" heigth="600" src="[static/assets/miprofile.png](https://drive.google.com/drive/u/1/folders/1ZaCIamFKPtBQjWXNsM6ckstvJMuB88Am)">
+     <img width="600" heigth="600" src="https://drive.google.com/drive/u/1/folders/1ZaCIamFKPtBQjWXNsM6ckstvJMuB88Am)">
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
 </p>
