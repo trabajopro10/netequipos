@@ -8,10 +8,11 @@
      <img width="600" heigth="600" src="static/image/aplicacion.png">
   
       
+    
+ </p>
+  <p  align="center">
      la dirección ip del servidor donde se encuentra instalado. Trabaja en dos mabitos el mencionado requiere que que la base de datos 
      Postgresql se esté actualizando cada tiempo de manera que se pueda validar que equipos estan o no están respondiendo
      http://127.0.0.1:8001/gobequipos/vnipconectequipos
- </p>
-  <p  align="center">
      <img width="600" heigth="600" src="static/image/ActualizarBaseDatos.png">     
   </p>
