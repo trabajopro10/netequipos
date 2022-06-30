@@ -1,7 +1,7 @@
 # netequipos
 <h3>
-  Netequipos. Aplicación simple que permite censar los equipos de una red de datos ejecutando un solo ping por vez al equipo de comput. 
-  Es una aplicación hecha conn Python 3 y postgres 9.4 como base de datos 
+  Netequipos. Aplicación simple que permite censar los equipos de una red de datos ejecutando un solo ping por vez al equipo de computo. 
+  Es una aplicación hecha con Python 3 y postgres 9.4 como base de datos 
 </h3>
 <p  align="center">
   La aplicación trabaja en dos ambitos una actualizando la base de datos  
