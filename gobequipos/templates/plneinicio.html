@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+ {% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/cssepqred.css' %}" rel="stylesheet">
+    <script src="{% static 'js/apps.js' %}"></script>
+    <title>BaseDatos</title>
+</head>
+<!-- <body onload='reload();'> -->
+<body>
+    <h1>
+       <div>Verificaci&oacute;n de Equipos activos y Servidores</div> 
+       <h1>{{ Fecha }}</h1>
+    </h1>
+    <p> 
+	   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav"> 
+	        <script>
+       		     reload("http://172.16.1.51:8001/gobequipos/vnipconectequipos/");
+   	     	</script>
+	  </nav>
+    </p>  
+</body>
+</html>

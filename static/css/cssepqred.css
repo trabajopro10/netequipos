@@ -1,0 +1,214 @@
+body{
+  width: 80%;
+}
+table{
+  margin: 0 auto;
+	width: 520px;
+	border-collapse: collapse;
+	border: 1px solid #E5E7E9;
+	font-size: 13px;
+}
+
+table img{
+  width: 35%;
+  height: 20%;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*Se coloca la clase para cuando el equipo 
+  ha dejado de responder */
+.imgHoyAyer{
+  width: 30%;
+  height: 20%;
+}
+
+td, th{
+  padding: .2em;
+  border: solid 1px #777;
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+  text-align: center;
+  font: 10px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#tuyyo{
+  width: 20%;
+  height: 15%;
+  float: left;
+}
+
+h1 {
+ margin: 0 auto;
+ text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  color:rgba(38, 18, 216, 0.938);
+  font-weight: bold;
+  text-align: center;
+}
+thead th, tr{
+  border: solid 1px #777;
+}
+thead th{
+  background: darkred;
+  color: #E5E7E9;
+}
+
+#idEncabezado {
+  font-family:'Times New Roman', Times, serif;
+  font-size:30px;
+  border-color: inherit; 
+  resize:both;
+  overflow:auto;
+  color:#0000FF;
+}
+
+.opcion {
+	text-transform: uppercase;
+	font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: extra-expanded;
+	list-style:none;
+}
+
+.miDiv{
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: left;
+  border:1px solid black;
+  width:120px;
+  height:120px;
+  margin:5px;
+  padding:5px;
+  background:silver;
+}
+
+.muestra {
+	height: 900px;
+	width: 50%;
+	float: left;
+}
+
+.anterior {
+	height:	900px;
+	width:	35%;
+	float: left;
+}
+
+.posterior {
+	height: 50px;
+	width:	40%;
+	clear: both;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/* SI LA PANTALLA ES MOVIL  */
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0.5;
+}
+
+@media screen and (max-width:480px){
+     body{
+       width: auto;
+    }
+
+    .muestra{
+        background: blue;
+	      width: auto;
+        display: none;
+    }
+
+   .anterior{
+        width: auto;
+	      height: auto;
+   }
+
+   table {
+	      width: auto;
+        font-size: auto;
+   }
+
+   .divalerta{
+     width: auto;
+   }
+}
+
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 5rem;
+  }
+}
+
+.display-2 {
+  font-size: calc(1.575rem + 3.9vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-2 {
+    font-size: 4.5rem;
+  }
+}
+
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+}
+
+.display-4 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+}
+
+.display-5 {
+  font-size: calc(1.425rem + 2.1vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 3rem;
+  }
+}
+
+.display-6 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-6 {
+    font-size: 2.5rem;
+  }
+}

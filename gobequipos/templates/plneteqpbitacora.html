@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+ {% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/cssepqred.css' %}" rel="stylesheet">
+    <script src="{% static 'js/apps.js' %}"></script>
+    <title>Bitacora</title>
+</head>
+<!-- <body onload='reload();'> -->
+<body>
+    <h1>
+       <div> Latencias de Comunicaci&oacute;n Equipos Activos y Servidores</div>
+       <h1>{{ Fecha }}</h1>
+    </h1>
+    <p>
+          <nav class="navbar navbar-expand-lg navbar-dark py-lg-2" id="mainNav">
+        <table>
+            <tr>
+                <th class="nav-item active px-lg-2"> EQUIPO </th>
+                <th class="nav-item active px-lg-2"> FECHAS  </th>
+                <th class="nav-item active px-lg-2"> LATENCIAS </th>
+            </tr>
+            {% for Equipo1 in Equipos %}
+		{% if Equipo1.1 != 0 %}
+                <tr>
+                    <!-- Registros que no tengan información no deben ser mostrados -->
+                        <td class="nav-item active px-lg-2">{{Equipo1.1}}</td>
+                        <td class="nav-item active px-lg-2">{{Equipo1.2}}</td>
+                        <td class="nav-item active px-lg-2">{{Equipo1.3}}</td>
+                </tr>
+                <!-- <p>{{Equipo1}}</p>  -->
+		{% endif %}
+            {% endfor %}
+        </table>
+	
+          </nav>
+    </p>
+</body>
+</html>
