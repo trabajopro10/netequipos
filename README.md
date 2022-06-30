@@ -2,7 +2,7 @@
 <h3>
   Netequipos. Aplicación simple que permite censar los equipos de una red de datos ejecutando un solo ping por vez al equipo de computo 
 </h3>
-<p> align="center" color="blue">
+<p align="center">
      <img width="600" heigth="600" src="static/image/aplicacion.png">
   
      Se ejecuta en la ruta http://127.0.0.1:8001/gobequipos/vipequiposonline/, cuando se hace de forma local, y remoto colocando 
@@ -10,6 +10,6 @@
      Postgresql se esté actualizando cada tiempo de manera que se pueda validar que equipos estan o no están respondiendo
      http://127.0.0.1:8001/gobequipos/vnipconectequipos
  </p>
-  <p>
+  <p  align="center">
      <img width="600" heigth="600" src="static/image/ActualizarBaseDatos.png">     
   </p>
